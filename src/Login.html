@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in - ZAcademy</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.png" alt="ZAcademy logo" />
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Courses.html">Courses</a></li>
+        <li><a href="Contact-us.html">Contact Us</a></li>
+        <li><a href="About-us.html">About Us</a></li>
+        <li><input id="searchbox" type="text" placeholder="Search" /></li>
+        <button name="search-button" type="button" form="searchbox">
+          Search
+        </button>
+        <li><a href="#">Log in</a></li>
+        <li><a href="Sign-up.html">Sign Up</a></li>
+      </ul>
+    </header>
+
+    <section id="log-in-area">
+      <img src="img/logo.png" alt="ZAcademy logo" />
+      <input type="text" id="username" placeholder="username" />
+      <input type="password" id="password" placeholder="password" />
+      <!--I only added the button inside an anchor temporarily since the button should redirect to course page.I'll change that and make the button functional by itself when applying the JS-->
+      <a href="profile.html"
+        ><button name="login" type="button">Log in</button></a
+      >
+
+      <div id="forgot-pass">
+        <hr>
+        <a href="forgot-pass.html">Forgot Password?</a>
+      </div>
+    </section>
+  </body>
+</html>
