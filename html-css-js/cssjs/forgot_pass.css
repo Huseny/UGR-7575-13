@@ -1,0 +1,62 @@
+.password {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.password__container {
+  text-align: center;
+  width: 75%;
+  max-width: 1000px;
+}
+
+.passwor__header {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.password__email {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  color: #202124;
+  border: 1px solid #424346;
+  padding: 13px 15px;
+  font-size: 20px;
+
+  transition: 250ms;
+  display: block;
+}
+
+.password__email:focus {
+  outline: none;
+  border: 2px solid #1a73e8;
+  transition: 250ms;
+}
+
+.password__small {
+    display: block;
+}
+
+.password__reset-btn {
+    border: none;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+    background: #1beef1;
+    color: #00a037;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1 rgba(255, 255, 255, 0.7);
+    transition: 0.8s;
+    display: block;
+    margin: auto;
+  }
+  
+  .password__reset-btn:hover {
+    color: #f1f1f1;
+    background-color: crimson;
+  }
