@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in - ZAcademy</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../cssjs/header and footer.css" />
+    <link rel="stylesheet" href="../cssjs/log in.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__navigation">
+        <div class="header__navigation-div">
+          <img class="header__logo" src="img/logo.png" alt="ZAcademy logo" />
+          <button class="header__nav-bar">
+            <span class="header__nav-line"></span>
+            <span class="header__nav-line"></span>
+            <span class="header__nav-line"></span>
+          </button>
+        </div>
+        <div class="header__mobile-nav">
+          <ul class="header__mobile-navs">
+            <li class="header__link">
+              <a
+                class="header__mobile-anchor header__mobileanchor--hovered"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="header__link">
+              <a
+                class="header__mobile-anchor header__mobileanchor--hovered"
+                href="Courses.html"
+              >
+                Courses</a
+              >
+            </li>
+            <li class="header__link">
+              <a
+                class="header__mobile-anchor header__mobileanchor--hovered"
+                href="Contact-us.html"
+                >Contact Us</a
+              >
+            </li>
+            <li class="header__link">
+              <a
+                class="header__mobile-anchor header__mobileanchor--hovered"
+                href="About-us.html"
+                >About Us</a
+              >
+            </li>
+            <li class="header__link">
+              <a
+                class="header__mobile-anchor header__mobileanchor--hovered"
+                href="Login.html"
+                >Log in</a
+              >
+            </li>
+            <li class="header__link">
+              <a
+                class="header__mobile-anchor header__mobileanchor--hovered"
+                href="Sign-up.html"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="header__navs-div">
+          <ul class="header__navs">
+            <li class="header__link">
+              <a
+                class="header__anchor header__anchor--hovered"
+                href="index.html"
+                ><span arial-hidden="true" class="header__num">01</span> Home</a
+              >
+            </li>
+            <li class="header__link">
+              <a
+                class="header__anchor header__anchor--hovered"
+                href="Courses.html"
+                ><span arial-hidden="true" class="header__num">02</span>
+                Courses</a
+              >
+            </li>
+            <li class="header__link">
+              <a
+                class="header__anchor header__anchor--hovered"
+                href="Contact-us.html"
+                ><span arial-hidden="true" class="header__num">03</span> Contact
+                Us</a
+              >
+            </li>
+            <li class="header__link">
+              <a
+                class="header__anchor header__anchor--hovered"
+                href="About-us.html"
+                ><span arial-hidden="true" class="header__num">04</span> About
+                Us</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="header__log">
+          <ul class="header__log-items">
+            <li class="header__link">
+              <a
+                class="header__anchor header__anchor--hovered"
+                href="Login.html"
+                ><span arial-hidden="true" class="header__num">05</span> Log
+                in</a
+              >
+            </li>
+            <li class="header__link">
+              <a
+                class="header__anchor header__anchor--hovered"
+                href="Sign-up.html"
+                ><span arial-hidden="true" class="header__num">06</span> Sign
+                Up</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="log-in" id="log-in-area">
+      <div class="log-in__div">
+        <div class="log-in__container">
+          <div class="log-in__logo-div">
+            <img class="log-in__logo" src="img/logo.png" alt="ZAcademy logo" />
+          </div>
+
+          <input
+            class="log-in__input"
+            type="text"
+            id="username"
+            placeholder="username"
+          />
+          <input
+            class="log-in__input"
+            type="password"
+            id="password"
+            placeholder="password"
+          />
+          <button class="log-in__input-button" name="login" type="button">
+            Log in
+          </button>
+
+          <div id="forgot-pass">
+            <hr />
+            <a href="forgot-pass.html">Forgot Password?</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const login_btn = document.querySelector(".log-in__input-button");
+      login_btn.addEventListener("click", function () {
+        window.open("profile.html", "_blank");
+      });
+    </script>
+  </body>
+</html>
